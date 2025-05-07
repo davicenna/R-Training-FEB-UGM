@@ -117,7 +117,7 @@ return ((x+y)/2)
 my_function(x, y)
 
 # Function documentation
-?sum_of_a # Opens help for the sum() function
+?sum # Opens help for the sum() function
 ?c # Opens help for the c()
 
 # Summary of numeric vector
