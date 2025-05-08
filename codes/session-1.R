@@ -75,6 +75,21 @@ is.character(x)
 typeof()
 mode()
 
+# Exercise 1.1 ####
+# Q1
+z <- c(1.1, 9, 3.14)
+c(z, 555, z)
+my_sqrt <- sqrt(z-1) 
+my_sqrt # contains a vector of length 3
+
+# Q2
+z * 2 + 100 # 2 and 100 is scalar, but R treats them like c(2, 2, 2) and c(100, 100, 100) in this case
+z * c(2, 2, 2) + c(100, 100, 100) 
+c(1, 2, 3, 4) + c(0, 10) # R adds the vectors element by element
+c(1, 2, 3, 4) + c(0, 10, 100) 
+# R gives a warning message if the length of the shorter vector 
+# does not divide evenly into the length of the longer vector
+
 # Logical operators in R
 x <- 5; y <- 10
 x < y       # TRUE
