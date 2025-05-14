@@ -343,6 +343,7 @@ banned_smokers_age <- smoking_df %>%
   filter(smkban == 1, smoker == 1) %>%
   select(age) %>%
   summarize(mean(age))
+
 banned_smokers_age
 
 # The pipe takes the output from one function and passes it 
