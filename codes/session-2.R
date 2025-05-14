@@ -176,7 +176,7 @@ head(mtcars)
 # Importing Data ####
 
 # Set working directory
-setwd("/Users/dataavicenna/Library/CloudStorage/OneDrive-Personal/Training/R-Training-2025/datasets")
+setwd("")
 
 # Using base R
 smoking_df <- read.csv("Smoking.csv")
