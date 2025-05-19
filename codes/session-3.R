@@ -88,7 +88,7 @@ par(mfrow = c(1, 1))
 
 # Descriptive Statistics ####
 
-setwd("/Users/dataavicenna/Library/CloudStorage/OneDrive-Personal/Training/R-Training-2025/datasets")
+setwd("")
 library(readxl)
 smoking_df <- read_excel("smoking.xlsx")
 
