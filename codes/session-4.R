@@ -75,16 +75,6 @@ model_dummy <- lm(score ~ high_STR, data = CASchools)
 summary(model_dummy)
 
 # install.packages("stargazer")
-library(stargazer)
-stargazer(SLR, MLR, type = "text",
-          column.labels = c("Simple", "Multiple"),
-          title = "Regression Results")
-
-# Alternative approach using modelsummary
-library(modelsummary)
-modelsummary(list("Simple" = SLR, "Multiple" = MLR))
-
-
 # Using stargazer for publication-quality tables
 library(stargazer)
 models <- list(SLR, MLR, model_expanded)
